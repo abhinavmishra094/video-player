@@ -1,0 +1,10 @@
+<%
+if(session.getAttribute("admin")!=null)
+{
+ response.sendRedirect("vp1.jsp");
+}
+else
+{
+    response.sendRedirect("login.jsp");
+}
+%>
